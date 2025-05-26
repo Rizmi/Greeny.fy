@@ -10,8 +10,6 @@ import Bottom from '../Bottom.vue'
 
         <Navbar /> <!-- NAVIAGTION -->
 
-        <p class="font-1">Solutions</p>
-
         <Bottom /> <!-- FOOTER -->
 
     </div>
