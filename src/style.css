@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap');
+
+:root {
+    --dark-color: #161616;
+    --light-color: #fff;
+    --theme-color: #2DCC4D;
+    --line-color: rgba(216, 216, 216, 0.8);
+    --blur-color: rgba(0, 255, 0, 0.315);
+    --gray-color: #424242;
+    --max-width: 1920px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    border: none;
+    color: var(--dark-color);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--light-color);
+}
+
+.font-1 {
+    font-size: 4rem;
+    line-height: 4rem;
+}
+
+.font-2 {
+    font-size: 2.5rem;
+}
+
+.font-3 {
+    font-size: 2rem;
+}
+
+.font-4 {
+    font-size: 1.5rem;
+}
+
+.font-5 {
+    font-size: 1.2rem;
+}
+
+.font-6 {
+    font-size: 1rem;
+}
+
+.font-p {
+    font-size: 1.1rem;
+}
+
+.container {
+    max-width: var(--max-width);
+    position: relative;
+    margin: 0 auto;
+}
+
+.edge-border {
+    outline: 1px dashed grey;
+}
+
+/* MEDIA */
+
+@media (max-width: 1350px) {
+    .font-1 {
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+    }
+
+    .font-2 {
+        font-size: 2rem;
+    }
+
+    .font-4 {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 1100px) {
+    .font-4 {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .font-1 {
+        font-size: 3.2rem;
+        line-height: 3.2rem;
+    }
+}
+
+@media (max-width: 750px) {
+    .font-1 {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    .font-2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .font-1 {
+        font-size: 2.8rem;
+        line-height: 2.8rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .font-1 {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+}
