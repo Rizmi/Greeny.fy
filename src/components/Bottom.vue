@@ -13,10 +13,10 @@
 
         <div class="navigation">
             <ul>
-                <li><router-link class="font-6 nav-link" to="/">About Us</router-link></li>
-                <li><router-link class="font-6 nav-link" to="/solutions">Terms</router-link></li>
-                <li><router-link class="font-6 nav-link" to="/events">Privacy Policy</router-link></li>
-                <li><router-link class="font-6 nav-link" to="/feedback">FAQ</router-link></li>
+                <li><router-link class="font-6 nav-link" to="">About Us</router-link></li>
+                <li><router-link class="font-6 nav-link" to="">Terms</router-link></li>
+                <li><router-link class="font-6 nav-link" to="">Privacy Policy</router-link></li>
+                <li><router-link class="font-6 nav-link" to="">FAQ</router-link></li>
                 <li><router-link class="font-6 nav-link" to="/contact">Contact</router-link></li>
             </ul>
         </div>
