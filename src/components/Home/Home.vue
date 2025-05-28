@@ -120,37 +120,37 @@ const scroll_right = () => {
                 <div class="studies-container edge-border">
                     <div class="studies edge-border" ref="studies">
                         <div class="sub-item edge-border">
-                            <img src="../../assets/waste.png" alt="">
+                            <img src="../../assets/1000.png" alt="">
                             <p class="font-4 title">Waste</p>
                             <p class="font-p description">Unsorted and overflowing bins cause public health risks and degrade urban cleanliness.</p>
                         </div>
                         <div class="sub-item edge-border">
-                            <img src="../../assets/background.jpg" alt="">
+                            <img src="../../assets/1000.png" alt="">
                             <p class="font-4 title">Polluted Air</p>
                             <p class="font-p description">Vehicle emissions and industrial activities worsen air quality, affecting public health.</p>
                         </div>
                         <div class="sub-item edge-border">
-                            <img src="../../assets/background.jpg" alt="">
+                            <img src="../../assets/1000.png" alt="">
                             <p class="font-4 title">Traffic</p>
                             <p class="font-p description">Overcrowded roads and poor signal timing lead to long travel times and higher fuel usage.</p>
                         </div>
                         <div class="sub-item edge-border">
-                            <img src="../../assets/background.jpg" alt="">
+                            <img src="../../assets/1000.png" alt="">
                             <p class="font-4 title">Power</p>
                             <p class="font-p description">Traditional street lighting consume excessive electricity, increasing carbon emissions.</p>
                         </div>
                         <div class="sub-item edge-border">
-                            <img src="../../assets/background.jpg" alt="">
+                            <img src="../../assets/1000.png" alt="">
                             <p class="font-4 title">Water</p>
                             <p class="font-p description">Leaking pipes and unchecked usage result in significant loss of clean water daily.</p>
                         </div>
                         <div class="sub-item edge-border">
-                            <img src="../../assets/background.jpg" alt="">
+                            <img src="../../assets/1000.png" alt="">
                             <p class="font-4 title">Transport</p>
                             <p class="font-p description">Dependence on fossil fuel transport adds to urban air and noise pollution.</p>
                         </div>
                         <div class="sub-item edge-border">
-                            <img src="../../assets/background.jpg" alt="">
+                            <img src="../../assets/1000.png" alt="">
                             <p class="font-4 title">Solar</p>
                             <p class="font-p description">Many residents can't install solar panels due to lack of space or funding.</p>
                         </div>
@@ -449,7 +449,7 @@ const scroll_right = () => {
 }
 
 .area-studies .studies-container .studies .sub-item {
-    height: 450px;
+    height: 500px;
     border-radius: 20px;
     text-align: center;
     overflow: hidden;
@@ -473,8 +473,7 @@ const scroll_right = () => {
 }
 
 .area-studies .studies-container .studies .sub-item img {
-    height: 70%;
-    cursor: not-allowed;
+    width : 100%;
 }
 
 .area-studies .studies-container .studies .sub-item .title {
