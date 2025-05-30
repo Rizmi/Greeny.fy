@@ -111,6 +111,7 @@ import Bottom from '../Bottom.vue'
 .header {
     background-image: url(../../assets/solutions.jpg);
     background-size: cover;
+    background-position: center center;
     height: 100vh;
     display: flex;
     align-items: center;

@@ -31,7 +31,7 @@ const mobile_navbar_close = () => {
                 </button>
                 <li><router-link class="font-5 nav-link" to="/">Home</router-link></li>
                 <li><router-link class="font-5 nav-link" to="/solutions">Solutions</router-link></li>
-                <li><router-link class="font-5 nav-link" to="/events">Events</router-link></li>
+                <li><router-link class="font-5 nav-link" to="/projects">Projects</router-link></li>
                 <li><router-link class="font-5 nav-link" to="/feedback">Feedback</router-link></li>
                 <li><router-link class="font-5 nav-link" to="/contact">Contact</router-link></li>
             </ul>
