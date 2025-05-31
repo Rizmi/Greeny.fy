@@ -2,12 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap');
 
 :root {
-    --dark-color: #161616;
-    --light-color: #fff;
     --theme-color: #2DCC4D;
-    --line-color: rgba(216, 216, 216, 0.8);
-    --blur-color: rgba(0, 255, 0, 0.315);
+    --light-color: #fff;
+    --line-color: #f0f0f0;
     --gray-color: #424242;
+    --dark-color: #161616;
     --max-width: 1920px;
 }
 
@@ -28,6 +27,11 @@ html {
 
 body {
     background-color: var(--light-color);
+}
+
+.font-0 {
+    font-size: 10rem;
+    line-height: 9rem;
 }
 
 .font-1 {
@@ -66,7 +70,7 @@ body {
 }
 
 .edge-border {
-    outline: 1px dashed grey;
+    outline: 1px dashed var(--gray-color);
 }
 
 /* MEDIA */
@@ -96,6 +100,10 @@ body {
     .font-1 {
         font-size: 3.2rem;
         line-height: 3.2rem;
+    }
+    .font-0 {
+        font-size: 9rem;
+        line-height: 8rem;
     }
 }
 

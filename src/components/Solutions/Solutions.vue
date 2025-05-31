@@ -12,7 +12,7 @@ import Bottom from '../Bottom.vue'
 
         <!-- HEADER -->
         <div class="header">
-            <p class="font-1 main-heading">Solutions</p>
+            <p class="font-0 main-heading">Solutions</p>
             <p class="font-4 tagline">We got you covered.</p>
         </div>
         <!-- HEADER -->
@@ -25,7 +25,7 @@ import Bottom from '../Bottom.vue'
                     <p class="font-3 heading">🗑️ Waste → Smart Waste Bins</p>
                     <p class="font-p description">Install sensor-equipped waste bins that detect fill levels and guide users to separate recyclables from regular waste. Some models notify collectors when full.</p>
                     <p class="font-4 sub-heading">Impact :</p>
-                    <p class="font-p">Cleaner streets, higher recycling rates, and fewer overflowing bins.</p>
+                    <p class="font-p sub-description">Cleaner streets, higher recycling rates, and fewer overflowing bins.</p>
                     <a href="#"><button class="font-6 contribute-btn">Contribute</button></a>
                     <a href="#"><button class="font-6 read-more-btn">Read More</button></a>
                 </div>
@@ -36,7 +36,7 @@ import Bottom from '../Bottom.vue'
                     <p class="font-3 heading">🌫️ Polluted Air → Green Urban Zones</p>
                     <p class="font-p description">Introduce low-emission zones, plant vertical gardens, and increase green cover around traffic-heavy areas and schools to filter air naturally.</p>
                     <p class="font-4 sub-heading">Impact :</p>
-                    <p class="font-p">Cleaner breathing spaces, better public health, and reduced urban heat.</p>
+                    <p class="font-p sub-description">Cleaner breathing spaces, better public health, and reduced urban heat.</p>
                     <a href="#"><button class="font-6 contribute-btn">Contribute</button></a>
                     <a href="#"><button class="font-6 read-more-btn">Read More</button></a>
                 </div>
@@ -47,7 +47,7 @@ import Bottom from '../Bottom.vue'
                     <p class="font-3 heading">🚦 Traffic → AI Traffic Control</p>
                     <p class="font-p description">Implement AI-driven traffic signals and real-time traffic monitoring to adjust signal timing based on congestion patterns.</p>
                     <p class="font-4 sub-heading">Impact :</p>
-                    <p class="font-p">Less idle time, smoother traffic flow, and reduced fuel waste.</p>
+                    <p class="font-p sub-description">Less idle time, smoother traffic flow, and reduced fuel waste.</p>
                     <a href="#"><button class="font-6 contribute-btn">Contribute</button></a>
                     <a href="#"><button class="font-6 read-more-btn">Read More</button></a>
                 </div>
@@ -58,7 +58,7 @@ import Bottom from '../Bottom.vue'
                     <p class="font-3 heading">💡 Power → Solar Streetlights</p>
                     <p class="font-p description">Switch to solar-powered streetlights with motion sensors for energy savings and consistent lighting even during blackouts.</p>
                     <p class="font-4 sub-heading">Impact :</p>
-                    <p class="font-p">Lower power bills and reduced reliance on the grid.</p>
+                    <p class="font-p sub-description">Lower power bills and reduced reliance on the grid.</p>
                     <a href="#"><button class="font-6 contribute-btn">Contribute</button></a>
                     <a href="#"><button class="font-6 read-more-btn">Read More</button></a>
                 </div>
@@ -69,7 +69,7 @@ import Bottom from '../Bottom.vue'
                     <p class="font-3 heading">💧 Water → Smart Water Meters</p>
                     <p class="font-p description">Install IoT-based water meters in homes and buildings to monitor usage, detect leaks, and send usage reports to residents.</p>
                     <p class="font-4 sub-heading">Impact :</p>
-                    <p class="font-p">Reduced water wastage, early leak detection, and more responsible use.</p>
+                    <p class="font-p sub-description">Reduced water wastage, early leak detection, and more responsible use.</p>
                     <a href="#"><button class="font-6 contribute-btn">Contribute</button></a>
                     <a href="#"><button class="font-6 read-more-btn">Read More</button></a>
                 </div>
@@ -80,7 +80,7 @@ import Bottom from '../Bottom.vue'
                     <p class="font-3 heading">🚲 Transport → Eco Transport Network</p>
                     <p class="font-p description">Develop bike-sharing systems, expand electric bus routes, and add incentives for EV usage with smart route planning apps.</p>
                     <p class="font-4 sub-heading">Impact :</p>
-                    <p class="font-p">Less noise, fewer emissions, and more sustainable travel.</p>
+                    <p class="font-p sub-description">Less noise, fewer emissions, and more sustainable travel.</p>
                     <a href="#"><button class="font-6 contribute-btn">Contribute</button></a>
                     <a href="#"><button class="font-6 read-more-btn">Read More</button></a>
                 </div>
@@ -91,7 +91,7 @@ import Bottom from '../Bottom.vue'
                     <p class="font-3 heading">☀️ Solar → Community Solar Projects</p>
                     <p class="font-p description">Set up shared solar farms where multiple households subscribe and receive energy credits—even those who can't install panels.</p>
                     <p class="font-4 sub-heading">Impact :</p>
-                    <p class="font-p">Clean, affordable energy access for all, regardless of property type.</p>
+                    <p class="font-p sub-description">Clean, affordable energy access for all, regardless of property type.</p>
                     <a href="#"><button class="font-6 contribute-btn">Contribute</button></a>
                     <a href="#"><button class="font-6 read-more-btn">Read More</button></a>
                 </div>
@@ -122,13 +122,10 @@ import Bottom from '../Bottom.vue'
 .header .main-heading {
     color: var(--light-color);
     font-weight: 700;
-    font-size: 10rem;
-    margin-top: 50px;
 }
 
 .header .tagline {
     color: var(--light-color);
-    margin-top: 50px;
 }
 
 /* HEADER */
@@ -179,6 +176,11 @@ import Bottom from '../Bottom.vue'
 .content .sub-item .sub-item-content .sub-heading {
     font-weight: 700;
     margin-top: 20px;
+    color: var(--gray-color)
+}
+
+.content .sub-item .sub-item-content .sub-description {
+    color: var(--gray-color)
 }
 
 .content .sub-item .sub-item-content .contribute-btn,

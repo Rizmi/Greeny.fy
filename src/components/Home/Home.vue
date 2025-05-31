@@ -268,7 +268,8 @@ const scroll_right = () => {
     transform: translateX(-50%);
     width: 400px;
     height: 400px;
-    background-color: var(--blur-color);
+    background-color: var(--theme-color);
+    opacity: 0.4;
     filter: blur(100px);
     border-radius: 50%;
 }
@@ -406,7 +407,8 @@ const scroll_right = () => {
     left: 0;
     width: 150px;
     height: 150px;
-    background-color: var(--blur-color);
+    background-color: var(--theme-color);
+    opacity: 0.4;
     filter: blur(50px);
     border-radius: 50%;
     z-index: 0;
