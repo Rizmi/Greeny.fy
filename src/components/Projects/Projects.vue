@@ -1,6 +1,7 @@
 <script setup>
 import Navbar from '../Navbar.vue'
 import Bottom from '../Bottom.vue'
+import projects from './ProjectsData.json' //BACKEND DATA
 </script>
 
 <template>
@@ -19,34 +20,39 @@ import Bottom from '../Bottom.vue'
         </div>
         <!-- HEADER -->
 
-        <!-- CONTENT -->
+        <!-- HEADING -->
         <div id="space"></div>
-        <div class="content" id="content">
-            <p class="font-1 heading">~Progress~</p>
+        <p class="font-1 heading">~Progress~</p>
+        <!-- HEADING -->
 
-            <div class="sub-item edge-border">
+        <!-- CARDS -->
+         <div class="cards">
+            <div v-for="(project, index) in projects" :key="index" class="sub-item edge-border">
                 <div class="top edge-border">
                     <div class="column column-1 edge-border"></div>
                     <div class="column column-2 edge-border">
-                        <p class="font-3 topic">Project Viva 2025</p>
-                        <p class="font-5 description">Wattala | 2025</p>
+                        <p class="font-3 title">{{project.title}}</p>
+                        <p class="font-5 location">{{project.location}} | {{project.year}}</p>
                     </div>
                     <div class="column column-3 edge-border"></div>
                 </div>
                 <div class="middle edge border"></div>
                 <div class="bottom edge-border">
-                    <div class="column column-1 edge-border"></div>
-                    <div class="column column-2 edge-border">
-                        <p class="font-5 status">Status : On Going</p>
-                        <p class="font-p about">Adipisicing elit. Corporis reiciendis at consequatur ad porro minima laboriosam provident tenetur quos facere, expedita dolorum doloribus nulla dolore nam recusandae, deserunt esse ab! <br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate in culpa mollitia deleniti! Officiis, hic temporibus ratione corporis similique voluptatum placeat, consequuntur aliquid enim debitis quisquam optio velit vero rem.</p>
+                    <div class="column column-1 edge-border">
+                        <img :src="project['image-a']" alt="Image" class="image" />
                     </div>
-                    <div class="column column-3 edge-border"></div>
+                    <div class="column column-2 edge-border">
+                        <p class="font-5 status">Status : {{project.status}}</p>
+                        <p class="font-p description">{{project.description}}</p>
+                    </div>
+                    <div class="column column-3 edge-border">
+                        <img :src="project['image-b']" alt="Image" class="image" />
+                    </div>
                     <div class="box"></div>
                 </div>
             </div>
-
-        </div>
-        <!-- CONTENT -->
+         </div>
+        <!-- CARDS -->
 
         <Bottom /> <!--- FOOTER --->
 
@@ -128,18 +134,20 @@ import Bottom from '../Bottom.vue'
 }
 /* HEADER */
  
-/* CONTENT */
+/* HEADING */
 #space {
     height: 5rem;
 }
 
-.content .heading {
+.heading {
     text-align: center;
     color: var(--dark-color);
     font-weight: 700;
 }
+/* HEADING */
 
-.content .sub-item {
+/* CARDS */
+.sub-item {
     margin-top: 50px;
     width: 100%;
     height: 500px;
@@ -149,7 +157,7 @@ import Bottom from '../Bottom.vue'
     flex-direction: column;
 }
 
-.content .sub-item .top {
+.sub-item .top {
     width: 100%;
     height: 17%;
     display: flex;
@@ -157,12 +165,12 @@ import Bottom from '../Bottom.vue'
     justify-content: space-evenly;
 }
 
-.content .sub-item .middle {
+.sub-item .middle {
     width: 100%;
     height: 3%;
 }
 
-.content .sub-item .bottom{
+.sub-item .bottom{
     position: relative;
     width: 100%;
     height: 75%;
@@ -171,13 +179,13 @@ import Bottom from '../Bottom.vue'
     justify-content: space-evenly;
 }
 
-.content .sub-item .column {
+.sub-item .column {
     width: 25%;
     height: 100%;
     border-radius: 20px;
 }
 
-.content .sub-item .bottom .box {
+.sub-item .bottom .box {
     position: absolute;
     background-color: var(--line-color);
     width: 100%;
@@ -187,38 +195,38 @@ import Bottom from '../Bottom.vue'
     z-index: -1;
 }
 
-.content .sub-item .bottom .column-1,
-.content .sub-item .bottom .column-3 {
+.sub-item .bottom .column-1,
+.sub-item .bottom .column-3 {
     background-color: var(--line-color);
 }
 
-.content .sub-item .bottom .column-2 {
+.sub-item .bottom .column-2 {
     background-color: var(--light-color);
     border: 3px var(--theme-color) solid;
     overflow: hidden;
 }
 
-.content .sub-item .top .column-1,
-.content .sub-item .top .column-3 {
+.sub-item .top .column-1,
+.sub-item .top .column-3 {
     display: none;
 }
 
-.content .sub-item .top .column-2 {
+.sub-item .top .column-2 {
     background-color: var(--theme-color);
 }
 
-.content .sub-item .top .column-2 .topic {
+.sub-item .top .column-2 .title {
     font-weight: 600;
     text-align: center;
     color: var(--light-color);
 }
 
-.content .sub-item .top .column-2 .description {
+.sub-item .top .column-2 .location {
     text-align: center;
     color: var(--light-color);
 }
 
-.content .sub-item .bottom .column-2 .status {
+.sub-item .bottom .column-2 .status {
     padding: 0 20px;
     text-align: center;
     background-color: var(--theme-color);
@@ -227,9 +235,18 @@ import Bottom from '../Bottom.vue'
     color: var(--gray-color);
 }
 
-.content .sub-item .bottom .column-2 .about {
+.sub-item .bottom .column-2 .description {
     padding: 20px;
     text-align: justify;
 }
-/* CONTENT */
+
+.sub-item .bottom .column-1 .image,
+.sub-item .bottom .column-3 .image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+}
+/* CARDS */
 </style>

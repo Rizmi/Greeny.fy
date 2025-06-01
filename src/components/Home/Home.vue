@@ -1,18 +1,19 @@
 <script setup>
 import Navbar from '../Navbar.vue'
 import Bottom from '../Bottom.vue'
+import studies from './StudiesData.json' //BACKEND DATA
 
 import { ref, onMounted } from 'vue';
 
 const scrollAmount = 350;
-const studies = ref(null);
+const scroll_studies = ref(null);
 
 const scroll_left = () => {
-    studies.value.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+    scroll_studies.value.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
 };
 
 const scroll_right = () => {
-    studies.value.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+    scroll_studies.value.scrollBy({ left: scrollAmount, behavior: 'smooth' });
 };
 </script>
 
@@ -118,41 +119,11 @@ const scroll_right = () => {
             <div class="area-studies edge-border">
                 <p class="font-1 heading edge-border">~Studies~</p>
                 <div class="studies-container edge-border">
-                    <div class="studies edge-border" ref="studies">
-                        <div class="sub-item edge-border">
-                            <img src="../../assets/1000.png" alt="">
-                            <p class="font-4 title">Waste</p>
-                            <p class="font-p description">Unsorted and overflowing bins cause public health risks and degrade urban cleanliness.</p>
-                        </div>
-                        <div class="sub-item edge-border">
-                            <img src="../../assets/1000.png" alt="">
-                            <p class="font-4 title">Polluted Air</p>
-                            <p class="font-p description">Vehicle emissions and industrial activities worsen air quality, affecting public health.</p>
-                        </div>
-                        <div class="sub-item edge-border">
-                            <img src="../../assets/1000.png" alt="">
-                            <p class="font-4 title">Traffic</p>
-                            <p class="font-p description">Overcrowded roads and poor signal timing lead to long travel times and higher fuel usage.</p>
-                        </div>
-                        <div class="sub-item edge-border">
-                            <img src="../../assets/1000.png" alt="">
-                            <p class="font-4 title">Power</p>
-                            <p class="font-p description">Traditional street lighting consume excessive electricity, increasing carbon emissions.</p>
-                        </div>
-                        <div class="sub-item edge-border">
-                            <img src="../../assets/1000.png" alt="">
-                            <p class="font-4 title">Water</p>
-                            <p class="font-p description">Leaking pipes and unchecked usage result in significant loss of clean water daily.</p>
-                        </div>
-                        <div class="sub-item edge-border">
-                            <img src="../../assets/1000.png" alt="">
-                            <p class="font-4 title">Transport</p>
-                            <p class="font-p description">Dependence on fossil fuel transport adds to urban air and noise pollution.</p>
-                        </div>
-                        <div class="sub-item edge-border">
-                            <img src="../../assets/1000.png" alt="">
-                            <p class="font-4 title">Solar</p>
-                            <p class="font-p description">Many residents can't install solar panels due to lack of space or funding.</p>
+                    <div class="studies edge-border" ref="scroll_studies">
+                        <div v-for="(study, index) in studies" :key="index" class="sub-item edge-border">
+                            <img :src="study['image']" alt="">
+                            <p class="font-4 title">{{study.title}}</p>
+                            <p class="font-p description">{{study.description}}</p>
                         </div>
                     </div>
                     <div class="scroll-btn">
@@ -475,7 +446,10 @@ const scroll_right = () => {
 }
 
 .area-studies .studies-container .studies .sub-item img {
-    width : 100%;
+    /* width : 100%; */
+    object-fit: cover;
+    height: 70%;
+    width: 100%;
 }
 
 .area-studies .studies-container .studies .sub-item .title {
