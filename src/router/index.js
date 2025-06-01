@@ -4,14 +4,14 @@ import Home from '../components/Home/Home.vue';
 import Solutions from '../components/Solutions/Solutions.vue';
 import Projects from '../components/Projects/Projects.vue';
 import Feedback from '../components/Feedback/Feedback.vue';
-import Contact from '../components/Contact/Contact.vue';
+import Forum from '../components/Forum/Forum.vue';
 
 const routes = [
   { path: '/', name: 'Home', component: Home }, //Index or Home
   { path: '/solutions', name: 'Solutions', component: Solutions }, //Page Solutions
   { path: '/projects', name: 'Projects', component: Projects }, //Page Projects
   { path: '/feedback', name: 'Feedback', component: Feedback }, //Page Feedback
-  { path: '/contact', name: 'Contact', component: Contact }, //Page Contact
+  { path: '/forum', name: 'Forum', component: Forum }, //Page Forum
 ];
 
 const router = createRouter({

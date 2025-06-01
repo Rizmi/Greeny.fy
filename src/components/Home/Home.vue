@@ -1,7 +1,7 @@
 <script setup>
 import Navbar from '../Navbar.vue'
 import Bottom from '../Bottom.vue'
-import studies from './StudiesData.json' //BACKEND DATA
+import studiesData from './StudiesData.json' //BACKEND DATA
 
 import { ref, onMounted } from 'vue';
 
@@ -120,7 +120,7 @@ const scroll_right = () => {
                 <p class="font-1 heading edge-border">~Studies~</p>
                 <div class="studies-container edge-border">
                     <div class="studies edge-border" ref="scroll_studies">
-                        <div v-for="(study, index) in studies" :key="index" class="sub-item edge-border">
+                        <div v-for="(study, index) in studiesData" :key="index" class="sub-item edge-border">
                             <img :src="study['image']" alt="">
                             <p class="font-4 title">{{study.title}}</p>
                             <p class="font-p description">{{study.description}}</p>

@@ -1,7 +1,7 @@
 <script setup>
 import Navbar from '../Navbar.vue'
 import Bottom from '../Bottom.vue'
-import projects from './ProjectsData.json' //BACKEND DATA
+import projectsData from './ProjectsData.json' //BACKEND DATA
 </script>
 
 <template>
@@ -27,7 +27,7 @@ import projects from './ProjectsData.json' //BACKEND DATA
 
         <!-- CARDS -->
          <div class="cards">
-            <div v-for="(project, index) in projects" :key="index" class="sub-item edge-border">
+            <div v-for="(project, index) in projectsData" :key="index" class="sub-item edge-border">
                 <div class="top edge-border">
                     <div class="column column-1 edge-border"></div>
                     <div class="column column-2 edge-border">
@@ -147,7 +147,7 @@ import projects from './ProjectsData.json' //BACKEND DATA
 /* HEADING */
 
 /* CARDS */
-.sub-item {
+.cards .sub-item {
     margin-top: 50px;
     width: 100%;
     height: 500px;
@@ -157,7 +157,7 @@ import projects from './ProjectsData.json' //BACKEND DATA
     flex-direction: column;
 }
 
-.sub-item .top {
+.cards .sub-item .top {
     width: 100%;
     height: 17%;
     display: flex;
@@ -165,12 +165,12 @@ import projects from './ProjectsData.json' //BACKEND DATA
     justify-content: space-evenly;
 }
 
-.sub-item .middle {
+.cards .sub-item .middle {
     width: 100%;
     height: 3%;
 }
 
-.sub-item .bottom{
+.cards .sub-item .bottom{
     position: relative;
     width: 100%;
     height: 75%;
@@ -179,13 +179,13 @@ import projects from './ProjectsData.json' //BACKEND DATA
     justify-content: space-evenly;
 }
 
-.sub-item .column {
+.cards .sub-item .column {
     width: 25%;
     height: 100%;
     border-radius: 20px;
 }
 
-.sub-item .bottom .box {
+.cards .sub-item .bottom .box {
     position: absolute;
     background-color: var(--line-color);
     width: 100%;
@@ -195,38 +195,38 @@ import projects from './ProjectsData.json' //BACKEND DATA
     z-index: -1;
 }
 
-.sub-item .bottom .column-1,
-.sub-item .bottom .column-3 {
+.cards .sub-item .bottom .column-1,
+.cards .sub-item .bottom .column-3 {
     background-color: var(--line-color);
 }
 
-.sub-item .bottom .column-2 {
+.cards .sub-item .bottom .column-2 {
     background-color: var(--light-color);
     border: 3px var(--theme-color) solid;
     overflow: hidden;
 }
 
-.sub-item .top .column-1,
-.sub-item .top .column-3 {
+.cards .sub-item .top .column-1,
+.cards .sub-item .top .column-3 {
     display: none;
 }
 
-.sub-item .top .column-2 {
+.cards .sub-item .top .column-2 {
     background-color: var(--theme-color);
 }
 
-.sub-item .top .column-2 .title {
+.cards .sub-item .top .column-2 .title {
     font-weight: 600;
     text-align: center;
     color: var(--light-color);
 }
 
-.sub-item .top .column-2 .location {
+.cards .sub-item .top .column-2 .location {
     text-align: center;
     color: var(--light-color);
 }
 
-.sub-item .bottom .column-2 .status {
+.cards .sub-item .bottom .column-2 .status {
     padding: 0 20px;
     text-align: center;
     background-color: var(--theme-color);
@@ -235,13 +235,13 @@ import projects from './ProjectsData.json' //BACKEND DATA
     color: var(--gray-color);
 }
 
-.sub-item .bottom .column-2 .description {
+.cards .sub-item .bottom .column-2 .description {
     padding: 20px;
     text-align: justify;
 }
 
-.sub-item .bottom .column-1 .image,
-.sub-item .bottom .column-3 .image {
+.cards .sub-item .bottom .column-1 .image,
+.cards .sub-item .bottom .column-3 .image {
     object-fit: cover;
     width: 100%;
     height: 100%;

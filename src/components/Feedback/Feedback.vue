@@ -4,10 +4,18 @@ import Bottom from '../Bottom.vue'
 </script>
 
 <template>
+
+    <!-- MAIN CONTAINER -->
     <div class="container edge-border">
-        <Navbar />
-        <Bottom />
+
+        <Navbar /> <!-- NAVIAGTION -->
+
+        <Bottom />  <!--- FOOTER --->
+
     </div>
+    <!-- MAIN CONTAINER -->
+     
 </template>
 
-<style scoped></style>
+<style scoped>
+</style>

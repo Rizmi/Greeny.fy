@@ -17,7 +17,7 @@
                 <li><router-link class="font-6 nav-link" to="">Terms</router-link></li>
                 <li><router-link class="font-6 nav-link" to="">Privacy Policy</router-link></li>
                 <li><router-link class="font-6 nav-link" to="">FAQ</router-link></li>
-                <li><router-link class="font-6 nav-link" to="/contact">Contact</router-link></li>
+                <li><router-link class="font-6 nav-link" to="/forum">Forum</router-link></li>
             </ul>
         </div>
 
