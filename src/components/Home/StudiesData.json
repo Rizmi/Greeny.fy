@@ -2,36 +2,36 @@
   {
     "title": "Waste",
     "description": "Unsorted and overflowing bins cause public health risks and degrade urban cleanliness.",
-    "image": "/public/1000.png"
+    "image": "/1000.png"
   },
   {
     "title": "Polluted Air",
     "description": "Vehicle emissions and industrial activities worsen air quality, affecting public health.",
-    "image": "/public/1000.png"
+    "image": "/1000.png"
   },
   {
     "title": "Traffic",
     "description": "Overcrowded roads and poor signal timing lead to long travel times and higher fuel usage.",
-    "image": "/public/1000.png"
+    "image": "/1000.png"
   },
   {
     "title": "Power",
     "description": "Traditional street lighting consume excessive electricity, increasing carbon emissions.",
-    "image": "/public/Power.jpg"
+    "image": "/Power.j"
   },
   {
     "title": "Water",
     "description": "Leaking pipes and unchecked usage result in significant loss of clean water daily.",
-    "image": "/public/1000.png"
+    "image": "/1000.png"
   },
   {
     "title": "Overhead Wiring",
     "description": "Unorganized overhead wires pose safety risks, visual pollution, and hinder maintenance efforts.",
-    "image": "/public/Wiring.jpg"
+    "image": "/Wiring.jpg"
   },
   {
     "title": "Drain System",
     "description": "Open street drains endanger pedestrians, block water flow, and worsen flooding during rains.",
-    "image": "/public/Drain.jpg"
+    "image": "/Drain.jpg"
   }
 ]
