@@ -44,7 +44,7 @@ const submitForm = () => {
             <!-- CREATE -->
             <div class="create edge-border">
                 <p class="font-3 sub-heading">Create a Post</p>
-                <form  @submit.prevent="submitForm" class="form card">
+                <form  @submit.prevent="submitForm" class="form">
                     <div class="form-row">
                         <label for="author" class="font-5">Name:</label>
                         <input type="text" v-model="author" id="author" class="font-p" required>

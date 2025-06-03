@@ -1,11 +1,23 @@
 [
   {
-    "title": "Project Viva 2025",
-    "location": "Wattala",
+    "title": "Solar Upgrade",
+    "location": "Enderamulla Jogging Track",
     "year": 2025,
-    "status": "On Going",
-    "description": "",
-    "image-a": "/src/assets/1000.png",
-    "image-b": "/src/assets/1000.png"
+    "status": "On Going (75%)",
+    "description_1": "We replacing all existing CFL lights with efficient, solar-powered LED lights at the Enderamulla jogging track.",
+    "description_2": "The objectives of this project are to lower electricity costs, and decrease energy consumption. The track now has better, longer long lasting with less of an impact on the environment. In addition to improving joggers' safety and visibility at night, the upgrade sets a precedent for the use of clean energy in public areas.",
+    "image-a": "/public/1000.png",
+    "image-b": "/public/1000.png"
+  },
+
+  {
+    "title": "Clean & Cover",
+    "location": "Rosevilla Main Street",
+    "year": 2024,
+    "status": "Completed (100%)",
+    "description_1": "We cleaned all drainage systems in the Rosevilla area and covered them with concrete blocks for safety.",
+    "description_2": "Removed debris from open drains and firmly covered them with long-lasting concrete slabs to avoid blockages, lower the risk of flooding, and improve the safety of pedestrians and vehicles. This guarantees easier water flow during rainy seasons, shields locals from mishaps, and enhances the general hygienic and aesthetic conditions of the area.",
+    "image-a": "/public/1000.png",
+    "image-b": "/public/1000.png"
   }
 ]

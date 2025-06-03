@@ -20,7 +20,7 @@ import Bottom from '../Bottom.vue'
         <!-- CONTENT -->
         <div class="content edge-border">
             <div class="sub-item edge-border">
-                <img src="../../assets/500.jpg" alt="">
+                <img src="../../../public/500.jpg" alt="">
                 <div class="sub-item-content edge-border">
                     <p class="font-3 heading">🗑️ Waste → Smart Waste Bins</p>
                     <p class="font-p description">Install sensor-equipped waste bins that detect fill levels and guide users to separate recyclables from regular waste. Some models notify collectors when full.</p>
@@ -31,7 +31,7 @@ import Bottom from '../Bottom.vue'
                 </div>
             </div>
             <div class="sub-item edge-border">
-                <img src="../../assets/500.jpg" alt="">
+                <img src="../../../public/500.jpg" alt="">
                 <div class="sub-item-content edge-border">
                     <p class="font-3 heading">🌫️ Polluted Air → Green Urban Zones</p>
                     <p class="font-p description">Introduce low-emission zones, plant vertical gardens, and increase green cover around traffic-heavy areas and schools to filter air naturally.</p>
@@ -42,7 +42,7 @@ import Bottom from '../Bottom.vue'
                 </div>
             </div>
             <div class="sub-item edge-border">
-                <img src="../../assets/500.jpg" alt="">
+                <img src="../../../public/500.jpg" alt="">
                 <div class="sub-item-content edge-border">
                     <p class="font-3 heading">🚦 Traffic → AI Traffic Control</p>
                     <p class="font-p description">Implement AI-driven traffic signals and real-time traffic monitoring to adjust signal timing based on congestion patterns.</p>
@@ -53,7 +53,7 @@ import Bottom from '../Bottom.vue'
                 </div>
             </div>
             <div class="sub-item edge-border">
-                <img src="../../assets/500.jpg" alt="">
+                <img src="../../../public/500.jpg" alt="">
                 <div class="sub-item-content edge-border">
                     <p class="font-3 heading">💡 Power → Solar Streetlights</p>
                     <p class="font-p description">Switch to solar-powered streetlights with motion sensors for energy savings and consistent lighting even during blackouts.</p>
@@ -64,7 +64,7 @@ import Bottom from '../Bottom.vue'
                 </div>
             </div>
             <div class="sub-item edge-border">
-                <img src="../../assets/500.jpg" alt="">
+                <img src="../../../public/500.jpg" alt="">
                 <div class="sub-item-content edge-border">
                     <p class="font-3 heading">💧 Water → Smart Water Meters</p>
                     <p class="font-p description">Install IoT-based water meters in homes and buildings to monitor usage, detect leaks, and send usage reports to residents.</p>
@@ -75,23 +75,23 @@ import Bottom from '../Bottom.vue'
                 </div>
             </div>
             <div class="sub-item edge-border">
-                <img src="../../assets/500.jpg" alt="">
+                <img src="../../../public/500.jpg" alt="">
                 <div class="sub-item-content edge-border">
-                    <p class="font-3 heading">🚲 Transport → Eco Transport Network</p>
-                    <p class="font-p description">Develop bike-sharing systems, expand electric bus routes, and add incentives for EV usage with smart route planning apps.</p>
+                    <p class="font-3 heading">📡 Overhead Wiring → Smart Underground Cabling</p>
+                    <p class="font-p description">Adopt underground cabling and centralized utility ducts to replace chaotic overhead wiring with organized, concealed systems.</p>
                     <p class="font-4 sub-heading">Impact :</p>
-                    <p class="font-p sub-description">Less noise, fewer emissions, and more sustainable travel.</p>
+                    <p class="font-p sub-description">Improved urban aesthetics, reduced risk of wire damage, fewer outages, and better tree management.</p>
                     <a href="#"><button class="font-6 contribute-btn">Contribute</button></a>
                     <a href="#"><button class="font-6 read-more-btn">Read More</button></a>
                 </div>
             </div>
             <div class="sub-item edge-border">
-                <img src="../../assets/500.jpg" alt="">
+                <img src="../../../public/500.jpg" alt="">
                 <div class="sub-item-content edge-border">
-                    <p class="font-3 heading">☀️ Solar → Community Solar Projects</p>
-                    <p class="font-p description">Set up shared solar farms where multiple households subscribe and receive energy credits—even those who can't install panels.</p>
+                    <p class="font-3 heading">🌧️ Clogged Drains → Smart Drainage System</p>
+                    <p class="font-p description">Install covered, sensor-equipped drains that alert for blockages and filter out debris before entry.</p>
                     <p class="font-4 sub-heading">Impact :</p>
-                    <p class="font-p sub-description">Clean, affordable energy access for all, regardless of property type.</p>
+                    <p class="font-p sub-description">Prevents flooding, protects pedestrians, ensures cleaner streets, and supports better water flow year-round.</p>
                     <a href="#"><button class="font-6 contribute-btn">Contribute</button></a>
                     <a href="#"><button class="font-6 read-more-btn">Read More</button></a>
                 </div>

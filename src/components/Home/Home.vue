@@ -74,38 +74,38 @@ const scroll_right = () => {
 
             <!-- GOALS -->
             <div class="area-goals edge-border" id="area-goals">
-                <p class="font-1 heading edge-border">~Our Goals~</p>
+                <p class="font-1 heading edge-border">Our Goals</p>
                 <div class="goals edge-border">
                     <div class="sub-item edge-border">
-                        <img src="../../assets/item-1.png" alt="">
+                        <img src="../../../public/item-1.png" alt="">
                         <div class="text">
                             <p class="font-3 title">Recycle</p>
                             <p class=" description">Recycling is one of the simplest ways to reduce waste and conserve resources. By reprocessing materials like paper, plastic, and glass, we can prevent pollution, save energy, and reduce the need for raw materials. Let’s make recycling a habit in every corner of our cities to keep our environment clean and sustainable for future generations.</p>
                         </div>
                     </div>
                     <div class="sub-item edge-border">
-                        <img src="../../assets/item-2.png" alt="">
+                        <img src="../../../public/item-2.png" alt="">
                         <div class="text">
                             <p class="font-3 title">Healthier Living</p>
                             <p class="font-p description">A greener urban environment means healthier living. Trees, parks, and open spaces promote physical and mental well-being, while reducing stress and improving air quality. Healthy urban living fosters a sense of community, encourages outdoor activities, and leads to better overall health for residents.</p>
                         </div>
                     </div>
                     <div class="sub-item edge-border">
-                        <img src="../../assets/item-3.png" alt="">
+                        <img src="../../../public/item-3.png" alt="">
                         <div class="text">
                             <p class="font-3 title">Sustainable Future</p>
                             <p class="font-p description">Sustainability is key to ensuring that future generations inherit a planet that can support their needs. By adopting renewable energy sources, efficient waste management, and sustainable transport systems, we can build cities that minimize their environmental footprint and create a thriving, sustainable future for all.</p>
                         </div>
                     </div>
                     <div class="sub-item edge-border">
-                        <img src="../../assets/item-4.png" alt="">
+                        <img src="../../../public/item-4.png" alt="">
                         <div class="text">
                             <p class="font-3 title">Green Innovations</p>
                             <p class="font-p description">Green innovations are technological advancements that help reduce the environmental impact of urban life. From smart energy grids to eco-friendly building materials and electric public transport, these innovations lead the way in making cities more sustainable, efficient, and resilient to climate change.</p>
                         </div>
                     </div>
                     <div class="sub-item edge-border">
-                        <img src="../../assets/item-5.png" alt="">
+                        <img src="../../../public/item-5.png" alt="">
                         <div class="text">
                             <p class="font-3 title">Clean Air</p>
                             <p class="font-p description">Clean air is essential for a healthy and thriving community. Reducing pollution from vehicles, industries, and other sources through smart technologies and urban planning will improve air quality, reduce health risks, and enhance the quality of life in urban spaces. Clean air is a vital component of a livable, sustainable city.</p>
@@ -117,7 +117,7 @@ const scroll_right = () => {
 
             <!-- STUDIES -->
             <div class="area-studies edge-border">
-                <p class="font-1 heading edge-border">~Studies~</p>
+                <p class="font-1 heading edge-border">Local Studies</p>
                 <div class="studies-container edge-border">
                     <div class="studies edge-border" ref="scroll_studies">
                         <div v-for="(study, index) in studiesData" :key="index" class="sub-item edge-border">
@@ -315,9 +315,22 @@ const scroll_right = () => {
 }
 
 .area-goals .heading {
+    position: relative;
     text-align: center;
     color: var(--dark-color);
     font-weight: 700;
+}
+
+.area-goals .heading::before {
+    content: "";
+    width: 100px;
+    height: 4px;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    position: absolute;
+    background-color: var(--theme-color);
 }
 
 .area-goals .goals {
@@ -389,10 +402,23 @@ const scroll_right = () => {
 
 /* STUDIES */
 .area-studies .heading {
+    position: relative;
     margin-top: 80px;
     text-align: center;
     color: var(--dark-color);
     font-weight: 700;
+}
+
+.area-studies .heading::before {
+    content: "";
+    width: 100px;
+    height: 4px;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    position: absolute;
+    background-color: var(--theme-color);
 }
 
 .area-studies .studies-container {
@@ -528,11 +554,6 @@ const scroll_right = () => {
 .overview .description span {
     font-weight: 600;
     color: var(--light-color);
-}
-
-.overview .description:hover {
-    box-shadow: 5px 5px 10px -5px var(--gray-color);
-    filter: brightness(105%);
 }
 
 /* OVERVIEW */

@@ -32,8 +32,8 @@ const mobile_navbar_close = () => {
                 <li><router-link class="font-5 nav-link" to="/">Home</router-link></li>
                 <li><router-link class="font-5 nav-link" to="/solutions">Solutions</router-link></li>
                 <li><router-link class="font-5 nav-link" to="/projects">Projects</router-link></li>
+                <li><router-link class="font-5 nav-link" to="/calculator">Calculators</router-link></li>
                 <li><router-link class="font-5 nav-link" to="/forum">Forum</router-link></li>
-                <li><router-link class="font-5 nav-link" to="/feedback">Feedback</router-link></li>
             </ul>
             <ul class="navigation-btn edge-border">
                 <li><span class="material-icons search font-4">search</span></li>

@@ -22,7 +22,7 @@ import projectsData from './ProjectsData.json' //BACKEND DATA
 
         <!-- HEADING -->
         <div id="space"></div>
-        <p class="font-1 heading">~Progress~</p>
+        <p class="font-1 heading">Progress</p>
         <!-- HEADING -->
 
         <!-- CARDS -->
@@ -31,6 +31,9 @@ import projectsData from './ProjectsData.json' //BACKEND DATA
                 <div class="top edge-border">
                     <div class="column column-1 edge-border"></div>
                     <div class="column column-2 edge-border">
+                        <div class="cover">
+                            <p class="font-3">Contribute</p>
+                        </div>
                         <p class="font-3 title">{{project.title}}</p>
                         <p class="font-5 location">{{project.location}} | {{project.year}}</p>
                     </div>
@@ -43,7 +46,8 @@ import projectsData from './ProjectsData.json' //BACKEND DATA
                     </div>
                     <div class="column column-2 edge-border">
                         <p class="font-5 status">Status : {{project.status}}</p>
-                        <p class="font-p description">{{project.description}}</p>
+                        <p class="font-p description">{{project.description_1}}</p>
+                        <p class="font-p description">{{project.description_2}}</p>
                     </div>
                     <div class="column column-3 edge-border">
                         <img :src="project['image-b']" alt="Image" class="image" />
@@ -212,7 +216,34 @@ import projectsData from './ProjectsData.json' //BACKEND DATA
 }
 
 .cards .sub-item .top .column-2 {
+    position: relative;
     background-color: var(--theme-color);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.cards .sub-item .top .column-2:hover .cover {
+    top: 0%;
+}
+
+.cards .sub-item .top .column-2 .cover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: var(--light-color);
+    top: -100%;
+    border: 3px solid var(--theme-color);
+    transition: all 250ms ease;
+}
+
+.cards .sub-item .top .column-2 .cover p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 600;
+    color: var(--theme-color);
 }
 
 .cards .sub-item .top .column-2 .title {
@@ -236,7 +267,7 @@ import projectsData from './ProjectsData.json' //BACKEND DATA
 }
 
 .cards .sub-item .bottom .column-2 .description {
-    padding: 20px;
+    padding: 20px 20px 0px 20px;
     text-align: justify;
 }
 

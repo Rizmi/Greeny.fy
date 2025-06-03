@@ -70,7 +70,7 @@ body {
 }
 
 .edge-border {
-    outline: 1px dashed var(--gray-color);
+    /* outline: 1px dashed var(--gray-color); */
 }
 
 /* MEDIA */
