@@ -1,30 +1,37 @@
 [
     {
-        "topic" : "Title Goes Here Tho",
-        "author" : "Rizmi Burhan",
-        "city" : "Wattala",
-        "date" : "2025/05/25",
-        "description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis velit nostrum aperiam. Porro mollitia sint atque, incidunt omnis dolorum. Quo porro dolorem a harum eius, hic velit illum mollitia rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore neque tenetur quibusdam quisquam minima esse, consequuntur totam! Dignissimos fugiat provident minima voluptatibus architecto, voluptas amet delectus expedita. Perspiciatis, commodi deleniti. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia, quam error sunt fugiat perferendis aliquid incidunt necessitatibus ea omnis deserunt, labore, ullam modi. Perspiciatis, veniam neque nam provident unde dicta."
+        "topic" : "Brighter Evenings",
+        "author" : "Ravi Bandara",
+        "city" : "Mahara",
+        "date" : "2025/01/15",
+        "description" : "Greenyfy’s work at the jogging track has truly improved our evenings. The switch from old CFL lights to solar-powered LEDs not only makes the path safer and brighter but also helps the environment. It’s nice to see such practical sustainability in our own neighborhood."
     },
     {
-        "topic" : "Title Goes Here Tho",
-        "author" : "Rizmi Burhan",
-        "city" : "Wattala",
-        "date" : "2025/05/25",
-        "description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis velit nostrum aperiam. Porro mollitia sint atque, incidunt omnis dolorum. Quo porro dolorem a harum eius, hic velit illum mollitia rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore neque tenetur quibusdam quisquam minima esse, consequuntur totam! Dignissimos fugiat provident minima voluptatibus architecto, voluptas amet delectus expedita. Perspiciatis, commodi deleniti. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia, quam error sunt fugiat perferendis aliquid incidunt necessitatibus ea omnis deserunt, labore, ullam modi. Perspiciatis, veniam neque nam provident unde dicta."
+        "topic" : "Inspiring Local Sustainability",
+        "author" : "Nuwani Perera",
+        "city" : "Environmental Science Student",
+        "date" : "2025/01/02",
+        "description" : "I’ve followed Greenyfy’s initiatives for a while now. Their projects prove that small, local actions—like solar lighting and proper drainage—can have a huge environmental and social impact. It’s inspiring to see a community-led effort leading real change."
     },
     {
-        "topic" : "Title Goes Here Tho",
-        "author" : "Rizmi Burhan",
-        "city" : "Wattala",
-        "date" : "2025/05/25",
-        "description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis velit nostrum aperiam. Porro mollitia sint atque, incidunt omnis dolorum. Quo porro dolorem a harum eius, hic velit illum mollitia rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore neque tenetur quibusdam quisquam minima esse, consequuntur totam! Dignissimos fugiat provident minima voluptatibus architecto, voluptas amet delectus expedita. Perspiciatis, commodi deleniti. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia, quam error sunt fugiat perferendis aliquid incidunt necessitatibus ea omnis deserunt, labore, ullam modi. Perspiciatis, veniam neque nam provident unde dicta."
+        "topic" : "Cleaner Streets",
+        "author" : "Thilina",
+        "city" : "Environmental Volunteer",
+        "date" : "2024/10/08",
+        "description" : "Seeing Greenyfy take the initiative to clean and cover the open drains in Rosevilla was refreshing. These drains were dangerous and constantly blocked, but now they’re clean, safe, and much more hygienic. This is the kind of change we need."
     },
     {
-        "topic" : "Title Goes Here Tho",
-        "author" : "Rizmi Burhan",
-        "city" : "Wattala",
-        "date" : "2025/05/25",
-        "description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis velit nostrum aperiam. Porro mollitia sint atque, incidunt omnis dolorum. Quo porro dolorem a harum eius, hic velit illum mollitia rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore neque tenetur quibusdam quisquam minima esse, consequuntur totam! Dignissimos fugiat provident minima voluptatibus architecto, voluptas amet delectus expedita. Perspiciatis, commodi deleniti. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia, quam error sunt fugiat perferendis aliquid incidunt necessitatibus ea omnis deserunt, labore, ullam modi. Perspiciatis, veniam neque nam provident unde dicta."
+        "topic" : "Better Environment, Better Business",
+        "author" : "Sanjeewa Perera",
+        "city" : "Shop Owner",
+        "date" : "2024/08/10",
+        "description" : "Before Greenyfy stepped in, drainage problems and poor lighting were daily issues. Now the streets are cleaner, safer, and more organized. As a business owner, I’ve seen how these changes bring more foot traffic and a better vibe to the area."
+    },
+    {
+        "topic" : "Go Green",
+        "author" : "Manori Fernando",
+        "city" : "Website Feedback",
+        "date" : "2024/05/05",
+        "description" : "Greenyfy is the kind of local project we need more of. Eco-friendly, people-focused, and actually getting things done!"
     }
 ]

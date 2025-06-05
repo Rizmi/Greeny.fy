@@ -20,10 +20,10 @@ import Bottom from '../Bottom.vue'
         <!-- CONTENT -->
         <div class="content edge-border">
             <div class="sub-item edge-border">
-                <img src="/500.jpg" alt="">
+                <img src="/Solution-Trash.jpg" alt="">
                 <div class="sub-item-content edge-border">
                     <p class="font-3 heading">🗑️ Waste → Smart Waste Bins</p>
-                    <p class="font-p description">Install sensor-equipped waste bins that detect fill levels and guide users to separate recyclables from regular waste. Some models notify collectors when full.</p>
+                    <p class="font-p description">Install sensor-equipped waste bins on both sides of the roads, parkings, and crowded areas. These bins detect fill levels, encourage proper disposal, and alert collectors when nearing capacity.</p>
                     <p class="font-4 sub-heading">Impact :</p>
                     <p class="font-p sub-description">Cleaner streets, higher recycling rates, and fewer overflowing bins.</p>
                     <a href="#"><button class="font-6 contribute-btn">Contribute</button></a>
@@ -31,7 +31,7 @@ import Bottom from '../Bottom.vue'
                 </div>
             </div>
             <div class="sub-item edge-border">
-                <img src="/500.jpg" alt="">
+                <img src="/Solution-Green.jpg" alt="">
                 <div class="sub-item-content edge-border">
                     <p class="font-3 heading">🌫️ Polluted Air → Green Urban Zones</p>
                     <p class="font-p description">Introduce low-emission zones, plant vertical gardens, and increase green cover around traffic-heavy areas and schools to filter air naturally.</p>
@@ -42,9 +42,9 @@ import Bottom from '../Bottom.vue'
                 </div>
             </div>
             <div class="sub-item edge-border">
-                <img src="/500.jpg" alt="">
+                <img src="/Solution-Traffic.jpg" alt="">
                 <div class="sub-item-content edge-border">
-                    <p class="font-3 heading">🚦 Traffic → AI Traffic Control</p>
+                    <p class="font-3 heading">🚦 Traffic → Smart Traffic Control</p>
                     <p class="font-p description">Implement AI-driven traffic signals and real-time traffic monitoring to adjust signal timing based on congestion patterns.</p>
                     <p class="font-4 sub-heading">Impact :</p>
                     <p class="font-p sub-description">Less idle time, smoother traffic flow, and reduced fuel waste.</p>
@@ -53,7 +53,7 @@ import Bottom from '../Bottom.vue'
                 </div>
             </div>
             <div class="sub-item edge-border">
-                <img src="/500.jpg" alt="">
+                <img src="/Solution-Solor.jpg" alt="">
                 <div class="sub-item-content edge-border">
                     <p class="font-3 heading">💡 Power → Solar Streetlights</p>
                     <p class="font-p description">Switch to solar-powered streetlights with motion sensors for energy savings and consistent lighting even during blackouts.</p>
@@ -75,7 +75,7 @@ import Bottom from '../Bottom.vue'
                 </div>
             </div>
             <div class="sub-item edge-border">
-                <img src="/500.jpg" alt="">
+                <img src="/Solution-Cable.jpg" alt="">
                 <div class="sub-item-content edge-border">
                     <p class="font-3 heading">📡 Overhead Wiring → Smart Underground Cabling</p>
                     <p class="font-p description">Adopt underground cabling and centralized utility ducts to replace chaotic overhead wiring with organized, concealed systems.</p>
@@ -86,7 +86,7 @@ import Bottom from '../Bottom.vue'
                 </div>
             </div>
             <div class="sub-item edge-border">
-                <img src="/500.jpg" alt="">
+                <img src="/Solution-Drain.jpg" alt="">
                 <div class="sub-item-content edge-border">
                     <p class="font-3 heading">🌧️ Clogged Drains → Smart Drainage System</p>
                     <p class="font-p description">Install covered, sensor-equipped drains that alert for blockages and filter out debris before entry.</p>
