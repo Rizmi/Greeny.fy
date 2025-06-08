@@ -7,15 +7,15 @@ import projectsData from './ProjectsData.json' //BACKEND DATA
 <template>
 
     <!-- MAIN CONTAINER -->
-    <div class="container edge-border">
+    <div class="container dev-border">
 
         <Navbar /> <!-- NAVIAGTION -->
 
         <!-- HEADER -->
-        <div class="header edge-border">
+        <div class="header dev-border">
             <p class="font-0 main-heading">Projects</p>
             <p class="font-4 tagline">Progress of how we change the world.</p>
-            <div class="box edge-border"></div>
+            <div class="box dev-border"></div>
             <a href="#space"><span class="material-icons font-1">arrow_circle_down</span></a>
         </div>
         <!-- HEADER -->
@@ -27,29 +27,29 @@ import projectsData from './ProjectsData.json' //BACKEND DATA
 
         <!-- CARDS -->
          <div class="cards">
-            <div v-for="(project, index) in projectsData" :key="index" class="sub-item edge-border">
-                <div class="top edge-border">
-                    <div class="column column-1 edge-border"></div>
-                    <div class="column column-2 edge-border">
+            <div v-for="(project, index) in projectsData" :key="index" class="sub-item dev-border">
+                <div class="top dev-border">
+                    <div class="column column-1 dev-border"></div>
+                    <div class="column column-2 dev-border">
                         <div class="cover">
                             <p class="font-3">Contribute</p>
                         </div>
                         <p class="font-3 title">{{project.title}}</p>
                         <p class="font-5 location">{{project.location}} | {{project.year}}</p>
                     </div>
-                    <div class="column column-3 edge-border"></div>
+                    <div class="column column-3 dev-border"></div>
                 </div>
                 <div class="middle edge border"></div>
-                <div class="bottom edge-border">
-                    <div class="column column-1 edge-border">
+                <div class="bottom dev-border">
+                    <div class="column column-1 dev-border">
                         <img :src="project['image-a']" alt="Image" class="image" />
                     </div>
-                    <div class="column column-2 edge-border">
+                    <div class="column column-2 dev-border">
                         <p class="font-5 status">Status : {{project.status}}</p>
                         <p class="font-p description">{{project.description_1}}</p>
                         <p class="font-p description">{{project.description_2}}</p>
                     </div>
-                    <div class="column column-3 edge-border">
+                    <div class="column column-3 dev-border">
                         <img :src="project['image-b']" alt="Image" class="image" />
                     </div>
                     <div class="box"></div>

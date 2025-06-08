@@ -17,15 +17,15 @@ const mobile_navbar_close = () => {
 </script>
 
 <template>
-    <div class="nav-container edge-border">
-        <nav class="edge-border">
-            <div class="logo edge-border">
+    <div class="nav-container dev-border">
+        <nav class="dev-border">
+            <div class="logo dev-border">
                 <a href="#" class="font-2 logo-text">Greeny.fy</a>
             </div>
             <button id="mobile-navbar-open" @click="mobile_navbar_open">
                 <span class="material-icons">menu_open</span>
             </button>
-            <ul class="navigation-links edge-border" ref="navigation_links">
+            <ul class="navigation-links dev-border" ref="navigation_links">
                 <button id="mobile-navbar-close" @click="mobile_navbar_close">
                     <span class="material-icons">menu_open</span>
                 </button>
@@ -35,7 +35,7 @@ const mobile_navbar_close = () => {
                 <li><router-link class="font-5 nav-link" to="/calculator">Calculators</router-link></li>
                 <li><router-link class="font-5 nav-link" to="/forum">Forum</router-link></li>
             </ul>
-            <ul class="navigation-btn edge-border">
+            <ul class="navigation-btn dev-border">
                 <li><span class="material-icons search font-4">search</span></li>
                 <li><a href="#area-goals" class="font-5 nav-btn">Explore ></a></li>
             </ul>

@@ -30,7 +30,7 @@ const submitForm = () => {
 
 <template>
     <!-- MAIN CONTAINER -->
-    <div class="container edge-border">
+    <div class="container dev-border">
 
         <Navbar /> <!-- NAVIAGTION -->
 
@@ -39,10 +39,10 @@ const submitForm = () => {
         <!-- HEADING -->
 
         <!-- FORUM -->
-        <div class="forum edge-border">
+        <div class="forum dev-border">
 
             <!-- CREATE -->
-            <div class="create edge-border">
+            <div class="create dev-border">
                 <p class="font-3 sub-heading">Create a Post</p>
                 <form  @submit.prevent="submitForm" class="form">
                     <div class="form-row">
@@ -68,7 +68,7 @@ const submitForm = () => {
             <!-- PREVIOUS FORUMS -->
             <div class="forums">
                 <p class="font-3 sub-heading">Previous Posts</p>
-                <div v-for="(forum, index) in forumData" :key="index" class="sub-item edge-border">
+                <div v-for="(forum, index) in forumData" :key="index" class="sub-item dev-border">
                     <p class="font-4 topic">{{forum.topic}}</p>
                     <p class="font-6 author">By : {{forum.author}} | {{forum.city}}<span>{{forum.date}}</span></p>
                     <p class="font-p description">{{forum.description}}</p>

@@ -7,7 +7,7 @@
   {
     "title": "Polluted Air",
     "description": "Vehicle emissions and industrial activities worsen air quality, affecting public health.",
-    "image": "/1000.png"
+    "image": "/Studies-Air.jpg"
   },
   {
     "title": "Traffic",
@@ -18,11 +18,6 @@
     "title": "Power",
     "description": "Traditional street lighting consume excessive electricity, increasing carbon emissions.",
     "image": "/Studies-Power.jpg"
-  },
-  {
-    "title": "Water",
-    "description": "Leaking pipes and unchecked usage result in significant loss of clean water daily.",
-    "image": "/1000.png"
   },
   {
     "title": "Overhead Wiring",

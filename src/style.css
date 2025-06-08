@@ -69,9 +69,9 @@ body {
     margin: 0 auto;
 }
 
-.edge-border {
-    /* outline: 1px dashed var(--gray-color); */
-}
+/* .dev-border {
+    outline: 1px dashed var(--gray-color);
+} */
 
 /* MEDIA */
 

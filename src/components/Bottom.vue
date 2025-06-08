@@ -2,10 +2,10 @@
 </script>
 
 <template>
-    <div class="bottom edge-border">
+    <div class="bottom dev-border">
 
         <span id="follow-us">Follow Us</span>
-        <div class="follow edge-border">
+        <div class="follow dev-border">
             <span class="material-icons">rss_feed</span>
             <span class="material-icons">thumb_up</span>
             <span class="material-icons">adb</span>
@@ -13,11 +13,11 @@
 
         <div class="navigation">
             <ul>
-                <li><router-link class="font-6 nav-link" to="">About Us</router-link></li>
-                <li><router-link class="font-6 nav-link" to="">Terms</router-link></li>
-                <li><router-link class="font-6 nav-link" to="">Privacy Policy</router-link></li>
-                <li><router-link class="font-6 nav-link" to="">FAQ</router-link></li>
-                <li><router-link class="font-6 nav-link" to="/forum">Forum</router-link></li>
+                <li><a href="https://github.com/Rizmi/Greeny.fy" target="_blank" class="font-6 nav-link">GitHub</a></li>
+                <li><a href="https://greeny-fy.vercel.app/" target="_blank" class="font-6 nav-link">Hosting</a></li>
+                <li><a href="https://greeny-fy.vercel.app/" target="_blank" class="font-6 nav-link">Terms</a></li>
+                <li><a href="https://greeny-fy.vercel.app/" target="_blank" class="font-6 nav-link">Privacy Policy</a></li>
+                <li><a href="https://greeny-fy.vercel.app/" target="_blank" class="font-6 nav-link">FAQ</a></li>
             </ul>
         </div>
 

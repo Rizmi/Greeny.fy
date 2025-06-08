@@ -20,31 +20,31 @@ const scroll_right = () => {
 <template>
 
     <!-- MAIN CONTAINER -->
-    <div class="container edge-border">
+    <div class="container dev-border">
 
         <Navbar /> <!-- NAVIAGTION -->
 
         <!-- LANDING -->
-        <div class="landing-area edge-border">
-            <div class="main-section edge-border">
-                <div class="follow edge-border">
+        <div class="landing-area dev-border">
+            <div class="main-section dev-border">
+                <div class="follow dev-border">
                     <span class="material-icons">rss_feed</span>
                     <span class="material-icons">thumb_up</span>
                     <span class="material-icons">adb</span>
                     <span id="follow-us">Follow Us > </span>
                 </div>
-                <div class="main-text edge-border">
+                <div class="main-text dev-border">
                     <p class="font-6 tagline">Improve Quality of life</p>
                     <p class="font-1 heading">Green Future, Smarter Cities Together</p>
                     <p class="font-p description">Discover how smart greening strategies can transform your city into a healthier, cleaner, and more sustainable place to live.</p>
                     <a href="#"><button class="font-6" id="lets-talk-btn">Let's Talk</button></a>
                     <a href="#area-goals"><button class="font-6" id="read-more-btn">Read More</button></a>
                 </div>
-                <div class="main-image edge-border">
+                <div class="main-image dev-border">
                     <img src="../../assets/main-image.png" alt="Main Image">
                 </div>
             </div>
-            <div class="main-end edge-border">
+            <div class="main-end dev-border">
                 <div class="sub-item">
                     <span class="material-icons font-2">recycling</span>
                     <p class="font-4 title">Recycle</p>
@@ -73,38 +73,38 @@ const scroll_right = () => {
         <div class="relative-container">
 
             <!-- GOALS -->
-            <div class="area-goals edge-border" id="area-goals">
-                <p class="font-1 heading edge-border">Our Goals</p>
-                <div class="goals edge-border">
-                    <div class="sub-item edge-border">
+            <div class="area-goals dev-border" id="area-goals">
+                <p class="font-1 heading dev-border">Our Goals</p>
+                <div class="goals dev-border">
+                    <div class="sub-item dev-border">
                         <img src="/item-1.png" alt="">
                         <div class="text">
                             <p class="font-3 title">Recycle</p>
                             <p class=" description">Recycling is one of the simplest ways to reduce waste and conserve resources. By reprocessing materials like paper, plastic, and glass, we can prevent pollution, save energy, and reduce the need for raw materials. Let’s make recycling a habit in every corner of our cities to keep our environment clean and sustainable for future generations.</p>
                         </div>
                     </div>
-                    <div class="sub-item edge-border">
+                    <div class="sub-item dev-border">
                         <img src="/item-2.png" alt="">
                         <div class="text">
                             <p class="font-3 title">Healthier Living</p>
                             <p class="font-p description">A greener urban environment means healthier living. Trees, parks, and open spaces promote physical and mental well-being, while reducing stress and improving air quality. Healthy urban living fosters a sense of community, encourages outdoor activities, and leads to better overall health for residents.</p>
                         </div>
                     </div>
-                    <div class="sub-item edge-border">
+                    <div class="sub-item dev-border">
                         <img src="/item-3.png" alt="">
                         <div class="text">
                             <p class="font-3 title">Sustainable Future</p>
                             <p class="font-p description">Sustainability is key to ensuring that future generations inherit a planet that can support their needs. By adopting renewable energy sources, efficient waste management, and sustainable transport systems, we can build cities that minimize their environmental footprint and create a thriving, sustainable future for all.</p>
                         </div>
                     </div>
-                    <div class="sub-item edge-border">
+                    <div class="sub-item dev-border">
                         <img src="/item-4.png" alt="">
                         <div class="text">
                             <p class="font-3 title">Green Innovations</p>
                             <p class="font-p description">Green innovations are technological advancements that help reduce the environmental impact of urban life. From smart energy grids to eco-friendly building materials and electric public transport, these innovations lead the way in making cities more sustainable, efficient, and resilient to climate change.</p>
                         </div>
                     </div>
-                    <div class="sub-item edge-border">
+                    <div class="sub-item dev-border">
                         <img src="/item-5.png" alt="">
                         <div class="text">
                             <p class="font-3 title">Clean Air</p>
@@ -116,21 +116,21 @@ const scroll_right = () => {
             <!-- GOALS -->
 
             <!-- STUDIES -->
-            <div class="area-studies edge-border">
-                <p class="font-1 heading edge-border">Local Studies</p>
-                <div class="studies-container edge-border">
-                    <div class="studies edge-border" ref="scroll_studies">
-                        <div v-for="(study, index) in studiesData" :key="index" class="sub-item edge-border">
+            <div class="area-studies dev-border">
+                <p class="font-1 heading dev-border">Local Studies</p>
+                <div class="studies-container dev-border">
+                    <div class="studies dev-border" ref="scroll_studies">
+                        <div v-for="(study, index) in studiesData" :key="index" class="sub-item dev-border">
                             <img :src="study['image']" alt="">
                             <p class="font-4 title">{{study.title}}</p>
                             <p class="font-p description">{{study.description}}</p>
                         </div>
                     </div>
                     <div class="scroll-btn">
-                        <div class="scroll scroll-left edge-border" @click="scroll_left">
+                        <div class="scroll scroll-left dev-border" @click="scroll_left">
                             <span class="material-icons font-2">keyboard_double_arrow_left</span>
                         </div>
-                        <div class="scroll scroll-right edge-border" @click="scroll_right">
+                        <div class="scroll scroll-right dev-border" @click="scroll_right">
                             <span class="material-icons font-2">keyboard_double_arrow_right</span>
                         </div>
                     </div>
@@ -139,9 +139,9 @@ const scroll_right = () => {
             <!-- STUDIES -->
 
             <!-- OVERVIEW -->
-            <div class="overview edge-border">
-                <p class="font-1 heading edge-border">Greeny.fy?</p>
-                <p class="description font-p edge-border"><span>Greenyfy</span> is a smart city awareness hub built to inspire and inform urban communities about sustainable living. We spotlight real local challenges—from traffic and waste to energy and air quality—and present smart, tech-driven solutions to create cleaner, healthier cities. With interactive tools, green innovations, and community-powered ideas, Greenyfy helps you take part in building a smarter, greener tomorrow.</p>
+            <div class="overview dev-border">
+                <p class="font-1 heading dev-border">Greeny.fy?</p>
+                <p class="description font-p dev-border"><span>Greenyfy</span> is a smart city awareness hub built to inspire and inform urban communities about sustainable living. We spotlight real local challenges—from traffic and waste to energy and air quality—and present smart, tech-driven solutions to create cleaner, healthier cities. With interactive tools, green innovations, and community-powered ideas, Greenyfy helps you take part in building a smarter, greener tomorrow.</p>
             </div>
             <!-- OVERVIEW -->
 

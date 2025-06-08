@@ -38,7 +38,7 @@ const submitForm = () => {
 
 <template>
     <!-- MAIN CONTAINER -->
-    <div class="container edge-border">
+    <div class="container dev-border">
 
         <Navbar /> <!-- NAVIAGTION -->
 
@@ -47,10 +47,10 @@ const submitForm = () => {
         <!-- HEADING -->
 
         <!-- CALCULATORS -->
-        <div class="calculators edge-border">
+        <div class="calculators dev-border">
 
             <!-- CAL -->
-            <div class="cal edge-border">
+            <div class="cal dev-border">
                 <p class="font-3 sub-heading">Energy Usage Calculator</p>
                 <form  @submit.prevent="submitForm" class="form">
                     <div class="form-row">
